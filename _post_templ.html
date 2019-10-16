@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+<head>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png?v={time}">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png?v={time}">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png?v={time}">
+	<link rel="manifest" href="../favicon/site.webmanifest?v={time}">
+	<link rel="mask-icon" href="../favicon/safari-pinned-tab.svg?v={time}" color="#5bbad5">
+	<link rel="shortcut icon" href="../favicon/favicon.ico?v={time}">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="../favicon/browserconfig.xml?v={time}">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta charset="utf-8" />
+	<title>{title}</title>
+	<link rel="stylesheet" href="../reset.css"/>
+	<link rel="stylesheet" href="../style.css?v={time}"/>
+</head>
+<body>
+<nav class="nav">
+	<ul>
+		<li><a href = "{prev}.html">{prevtitle} <<</a></li>
+		<li><a href = "../index.html#{postid}">{ljname}</a></li>
+		<li><a href = "{next}.html">>> {nexttitle}</a></li>
+		<li><a href = "https://{ljname}.livejournal.com/{postid}.html">@</a></li>
+	</ul>
+</nav>
+<header><h1>{title}</h1></header>
+{article}
+<div class="nav">
+	<ul>
+		<li><a href = "{prev}.html">{prevtitle} <<</a></li>
+		<li><a href = "../index.html#{postid}">{ljname}</a></li>
+		<li><a href = "{next}.html">>> {nexttitle}</a></li>
+		<li><a href = "https://{ljname}.livejournal.com/{postid}.html">@</a></li>
+	</ul>
+</div>
+<footer>
+<h2>Комментарии</h2>
+<ul class="root">	
+~</ul>
+</footer>
+<div class="nav">
+	<ul>
+		<li><a href = "{prev}.html">{prevtitle} <<</a></li>
+		<li><a href = "../index.html#{postid}">{ljname}</a></li>
+		<li><a href = "{next}.html">>> {nexttitle}</a></li>
+		<li><a href = "https://{ljname}.livejournal.com/{postid}.html">@</a></li>
+	</ul>
+</div>
+</body>
+</html>
+~	<ul>
+~		<li>
+			<div class="row">
+				<div class="uname">
+					<img src="{userpic}" alt="{user}" class="userpic"> 
+					<a href = "{userlj}">{user}:</a>					
+				</div>
+			</div>			
+			<div class="row {class}">
+				{article}				
+			</div>
+		</li>
+~	</ul>
+~<div>Комментарии осутствуют</div>

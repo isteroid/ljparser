@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:700|PT+Sans:400,400i,700,700i');
+
+/* шрифты */
+body {font-family: 'PT Sans', sans-serif;}
+h1,h2,h3,h4,h5,h6 {font-family: 'PT Sans Caption', sans-serif; font-weight: bold;}
+body {font-size: 150%}
+.nav {font-size1: 85%}
+h1,h2,h3,h4,h5,h6 {font-size: 150%}
+footer {font-size: 90%}
+
+/* макет */
+:target:before {content:"";display:block;height:35px;margin:-35px 0 0;}
+body {margin: 20px 5px 50px 20px; line-height: 1.25;}
+footer {line-height: 1.15;}
+h1,h2,h3,h4,h5,h6 {margin: 1em 0 0.5em 0;}
+img {max-width: 100%;}
+ul > ul {margin: 0 0 0 2em;}
+li {margin-top: 0.5em;}
+footer ul {margin-left: 2em;}
+article {margin-bottom: 2em;}
+footer {margin: 2em 0;}
+.root {margin-left: 0;}
+.nav li {display: inline-block; margin: 0.5em 1em 0.5em 0;}
+.userpic {height: 50px; float: left; margin: 0.3em 1.0em 0.3em 0;}
+.row {width: 100%; margin: 0.3em 0;}
+.clearfix::after, .row::after {content: ""; clear: both; display: table;}
+.uname a {vertical-align: -50%;}
+
+/* прочее */
+h1,h2,h3,h4,h5,h6 {font-weight: bold;}
+i {font-style: italic;}
+b {font-style: normal;}
+a, a:link, a:visited, a:hover, a:active, a:hover {text-decoration: none;}
+a b, a:link b, a:visited b, a:hover b, a:active b, a:hover b {font-weight: bold;} 
+
+/* цвета */
+body {background: #222;}
+body, .author {color: #ccc;}
+h1,h2,h3,h4,h5,h6 {color: #acc;}
+footer {color: #9a9;}
+b {color: #fda;}
+i {color: #cba;}
+a, a b, a i, a:link, a:visited, a:hover, a:active, a:hover {color: #8bf;} 
+a:hover, a:hover b, a:hover i {color: #6af;}
+.uname, .uname a {color: #789;}
